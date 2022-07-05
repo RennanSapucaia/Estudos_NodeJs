@@ -8,10 +8,10 @@ let leituraDeCampo;
 readline.question('Digite um numero de 1 a 6: ', input => {
     leituraDeCampo = input;
     if(leituraDeCampo > 6){
-        console.log("Burro");
+        console.log("O número é maior que 6");
     }
-    else if(leituraDeCampo < 0){
-        console.log("Burro");
+    else if(leituraDeCampo <= 0){
+        console.log("O número é menor que 1");
     }
     else
     {

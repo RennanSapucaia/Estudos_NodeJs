@@ -1,2 +1,2 @@
-var nome = "pedro";
+var nome = "Rennan";
 console.log(nome);
