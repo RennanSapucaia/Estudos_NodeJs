@@ -15,7 +15,7 @@ readline.question('Digite um numero de 1 a 6: ', input => {
     }
     else
     {
-        console.log(`O seu número é: ${leituraDeCampo}`);
+        console.log(`O seu numero é: ${leituraDeCampo}`);
     }
 
 });
